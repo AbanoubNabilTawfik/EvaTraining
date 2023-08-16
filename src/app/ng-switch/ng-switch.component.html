@@ -1,0 +1,8 @@
+<p>ng-switch works!</p>
+
+<div [ngSwitch]="car">
+    <div *ngSwitchCase="'tipo'">You select tipo car</div>
+    <div *ngSwitchCase="'kia'">You select kia car</div>
+    <div *ngSwitchCase="'logan'">You select logan car</div>
+    <div *ngSwitchDefault>Pick a car again</div>
+</div>

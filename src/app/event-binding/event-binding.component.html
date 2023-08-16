@@ -1,0 +1,8 @@
+<p>event-binding works!</p>
+
+<input type="button" value="Say Message" (click)="sayHello($event)" />
+
+{{message}}
+
+<input type="text" #myInput />
+<input type="button" value="Print Text" (click)="printText(myInput.value)" />
